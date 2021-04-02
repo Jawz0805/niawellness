@@ -1,0 +1,90 @@
+@import "../../Styles/Variables";
+
+.side-bar-inner {
+  height: 100%;
+  border-radius: 5px;
+  border: 2px solid $black;
+  padding: 5px;
+}
+
+.side-bar-middle {
+  background-color: $yellow;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.side-bar-outer {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  height: calc(100vh - 25px);
+  width: calc(33vw - 29px);
+  border-radius: 5px;
+
+  padding: 5px;
+  border: 2px solid white;
+  //   border-left: none;
+}
+
+.tab-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  margin: 0;
+  padding: 2px;
+  font-size: 1.1em;
+  border: 2px solid $black;
+  border-radius: 5px;
+  width: 33%;
+}
+
+.tab-button {
+  width: 100%;
+  height: 100%;
+
+  background-color: $yellow;
+  border: 2px solid $black;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.sidebar-title {
+  font-size: 1.7em;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.mixtape-outer {
+  background-color: $yellow;
+  border-radius: 5px;
+  border: 2px solid $black;
+  padding: 2px;
+}
+.mixtape-inner {
+  background-color: $yellow;
+  border-radius: 5px;
+  border: 2px solid $black;
+  padding: 2px;
+}
+
+.mixtape {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  font-size: 1.4em;
+  background-color: $black;
+  color: $yellow;
+  border-radius: 5px;
+  border: 2px solid $black;
+  padding: 2px;
+}
+
+.sidebar-logo {
+  width: 100%;
+  margin-top: 50px;
+}

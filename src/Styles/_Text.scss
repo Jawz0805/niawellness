@@ -1,0 +1,67 @@
+@import "./Colours";
+@import "./Breakpoints";
+@import url("https://use.typekit.net/lwa8rme.css");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+button {
+  font-family: "sofachrome";
+}
+h1 {
+  text-align: center;
+  border: 2px solid $yellow;
+  border-radius: 40px;
+  margin: 5px;
+  padding: 10px;
+}
+
+p,
+a,
+span,
+label,
+textarea,
+div {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.nav-item {
+  a {
+    font-family: "sofachrome";
+    font-weight: 500;
+  }
+}
+.navbar-item {
+  a {
+    font-family: "sofachrome";
+    font-weight: 500;
+  }
+}
+h1 {
+  font-size: 2em;
+  margin: 0 0 10px 0;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1em;
+}
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+ul {
+  list-style: none;
+}

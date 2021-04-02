@@ -1,0 +1,22 @@
+@import "../../Styles/Variables";
+
+.header-inner-container {
+  padding: 10px;
+  background-color: $black;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-spacing: 10px;
+}
+
+.header-container {
+  width: 67vw;
+  padding: 0 5px 5px 5px;
+  border: 2px solid $white;
+  border-top: none;
+  border-left: none;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.header-logo {
+  width: 45%;
+}

@@ -1,0 +1,117 @@
+@import url("https://use.typekit.net/lwa8rme.css");
+.black {
+  color: #0a0a0a;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.bg-black {
+  background-color: #0a0a0a;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.container-padding {
+  padding: 5%;
+}
+
+.margin-rm {
+  margin: 0;
+}
+
+.black {
+  color: #0a0a0a;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.bg-black {
+  background-color: #0a0a0a;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+button {
+  font-family: "sofachrome";
+}
+
+h1 {
+  text-align: center;
+  border: 2px solid #dbfc54;
+  border-radius: 40px;
+  margin: 5px;
+  padding: 10px;
+}
+
+p,
+a,
+span,
+label,
+textarea,
+div {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.nav-item a {
+  font-family: "sofachrome";
+  font-weight: 500;
+}
+
+.navbar-item a {
+  font-family: "sofachrome";
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #5700ff;
+  margin: 0;
+}
+
+.video-container {
+  width: calc(67vw + 10px);
+}
+/*# sourceMappingURL=App.css.map */

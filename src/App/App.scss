@@ -1,0 +1,10 @@
+@import "../Styles/Variables";
+
+body {
+  background-color: $purple;
+  margin: 0;
+}
+
+.video-container {
+  width: calc(67vw + 10px);
+}

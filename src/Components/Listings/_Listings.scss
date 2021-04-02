@@ -1,0 +1,39 @@
+@import "../../Styles/Variables";
+
+.schedule {
+  margin: 0;
+  padding: 0;
+}
+
+.schedule-row {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.schedule-text {
+  font-size: 0.8em;
+  font-weight: 300;
+  padding: 0;
+  margin-right: 5px;
+}
+.schedule-time {
+  font-size: 0.8em;
+  font-weight: 300;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.time-block-black {
+  background-color: $black;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.schedule-text-large {
+  font-size: 0.8em;
+  font-weight: 300;
+  padding: 0;
+  margin-right: 5px;
+  min-width: 100%;
+}

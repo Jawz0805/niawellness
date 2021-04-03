@@ -1,5 +1,5 @@
 import React from "react";
-import GridCard from "../../Components/GridCard/GridCard";
+
 
 const About = () => {
     return (

@@ -6,6 +6,9 @@ body {
 }
 
 .video-container {
-  margin: 35px 0 30px 3px;
-  width: calc(67vw + 10px);
+  @include respond-to("large") {
+    margin: 35px 0 30px 3px;
+    width: calc(67vw + 10px);
+  }
+  width: 100vw;
 }

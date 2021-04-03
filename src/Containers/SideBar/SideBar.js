@@ -7,7 +7,7 @@ import Tabs from "../Tabs/Tabs";
 
 
 
-const SideBar = () => {
+const SideBar = ({ episode, setEpisode }) => {
     const listings = [
         { text: "capturing stillness", time: "10:00" },
         { text: "resonance", time: "10:30" },
@@ -29,7 +29,7 @@ const SideBar = () => {
         <div className="side-bar-outer">
             <div className="side-bar-middle">
                 <div className="side-bar-inner">
-                    <Tabs active={active} setActive={setActive} />
+                    <Tabs active={active} setActive={setActive} setEpisode={setEpisode} />
                     <h2 className="sidebar-title">Daytime</h2>
                     <ul className="schedule">
                         {listings.map((listing, index) => {

@@ -3,58 +3,10 @@ import "./_Grid.scss";
 import Logo from '../../Assets/LogoYellow.png'
 import GridCard from "../../Components/GridCard/GridCard";
 
-const cards = [
-    {
-        title: "Capturing Stillness",
-        time: "10Am",
-        text:
-            "Capturing Stillness which will largely be captured by film and photography of sitting in chairs in natural environments, gardens and outdoors",
-    },
-    {
-        title: "Capturing Stillness",
-        time: "10Am",
-        text:
-            "Capturing Stillness which will largely be captured by film and photography of sitting in chairs in natural environments, gardens and outdoors",
-    },
-    {
-        title: "Capturing Stillness",
-        time: "10Am",
-        text:
-            "Capturing Stillness which will largely be captured by film and photography of sitting in chairs in natural environments, gardens and outdoors",
-    },
-    {
-        title: "Capturing Stillness",
-        time: "10Am",
-        text:
-            "Capturing Stillness which will largely be captured by film and photography of sitting in chairs in natural environments, gardens and outdoors",
-    },
-    {
-        title: "Capturing Stillness",
-        time: "10Am",
-        text:
-            "Capturing Stillness which will largely be captured by film and photography of sitting in chairs in natural environments, gardens and outdoors",
-    },
-    {
-        title: "Capturing Stillness",
-        time: "10Am",
-        text:
-            "Capturing Stillness which will largely be captured by film and photography of sitting in chairs in natural environments, gardens and outdoors",
-    },
-    {
-        title: "Capturing Stillness",
-        time: "10Am",
-        text:
-            "Capturing Stillness which will largely be captured by film and photography of sitting in chairs in natural environments, gardens and outdoors",
-    },
-    {
-        title: "Capturing Stillness",
-        time: "10Am",
-        text:
-            "Capturing Stillness which will largely be captured by film and photography of sitting in chairs in natural environments, gardens and outdoors",
-    },
-];
 
-const Grid = () => {
+
+const Grid = ({ cards }) => {
+
     return (
         <div className="grid-container">
             <div className="grid-inner">

@@ -14,16 +14,19 @@
   padding: 10px;
 }
 .side-bar-outer {
-  position: fixed;
-  top: 5px;
-  right: 5px;
-  height: calc(100vh - 25px);
-  width: calc(33vw - 29px);
   border-radius: 5px;
-
   padding: 5px;
   border: 2px solid white;
   //   border-left: none;
+  @include respond-to("large") {
+    height: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    height: calc(100vh - 25px);
+    width: calc(33vw - 29px);
+  }
 }
 
 .sidebar-title {

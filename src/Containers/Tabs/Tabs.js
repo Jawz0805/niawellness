@@ -1,7 +1,7 @@
 import React from "react";
 import './_Tabs.scss'
 
-const Tabs = ({ active, setActive }) => {
+const Tabs = ({ active, setActive, setEpisode }) => {
     return (
         <ul className="tab-list">
             <li className={active === 1 ? "tab-none" : "tab"}>

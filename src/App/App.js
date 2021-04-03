@@ -6,9 +6,12 @@ import Grid from '../Containers/Grid/Grid';
 import SideBar from '../Containers/SideBar/SideBar';
 import { useState } from 'react';
 import About from '../Containers/About/About';
+import episode1 from '../Assets/ScheduleData'
+
 
 function App() {
   const [page, setPage] = useState("watch")
+  const [episode, setEpisode] = useState(episode1)
   return (
     <div className="App">
       <Header page={page} setPage={setPage} />
@@ -16,8 +19,8 @@ function App() {
         <VideoPlayer video="https://www.youtube.com/embed/t6axvAjDljg" title="Nia Tv" />
       </div>
       {page === "watch" ?
-        <Grid /> : <About />}
-      <SideBar />
+        <Grid cards={episode} /> : <About />}
+      <SideBar episode={episode1} setEpisode={setEpisode} />
     </div>
   );
 }

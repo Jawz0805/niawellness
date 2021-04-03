@@ -31,6 +31,7 @@
     background-color: $yellow;
     color: $black;
   }
+  font-size: 0.9em;
 }
 
 .tab-active {
@@ -40,24 +41,12 @@
   background-color: $yellow;
   border: 2px solid $black;
   border: none;
-  font-size: 1em;
+  font-size: 0.9em;
   outline: none;
   &:focus {
     outline: none;
   }
   cursor: pointer;
-  //   &::before {
-  //     content: "";
-  //     position: absolute;
-
-  //     background-color: $black;
-  //     right: -4px;
-  //     bottom: -3px;
-  //     height: 2px;
-  //     width: 2px;
-  //     border-bottom-left-radius: 25px;
-  //     box-shadow: 2px -2px 0 0 $black;
-  //   }
 }
 
 .tab-none {

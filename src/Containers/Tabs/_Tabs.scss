@@ -1,0 +1,73 @@
+@import "../../Styles/Variables";
+
+.tab-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  margin: 0;
+  padding: 1px;
+  font-size: 1.1em;
+  border: 2px solid $black;
+  border-radius: 5px;
+  width: 33%;
+}
+
+.tab-button {
+  width: 100%;
+  height: 100%;
+  padding: 3px 4px;
+  background-color: $black;
+  border: 2px solid $yellow;
+  color: $yellow;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    background-color: $yellow;
+    color: $black;
+  }
+}
+
+.tab-active {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: $yellow;
+  border: 2px solid $black;
+  border: none;
+  font-size: 1em;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+  cursor: pointer;
+  //   &::before {
+  //     content: "";
+  //     position: absolute;
+
+  //     background-color: $black;
+  //     right: -4px;
+  //     bottom: -3px;
+  //     height: 2px;
+  //     width: 2px;
+  //     border-bottom-left-radius: 25px;
+  //     box-shadow: 2px -2px 0 0 $black;
+  //   }
+}
+
+.tab-none {
+  margin: 0;
+  padding: 2px;
+  font-size: 1.1em;
+  border: 2px solid $black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: -5px;
+  border-bottom: none;
+  width: 33%;
+}

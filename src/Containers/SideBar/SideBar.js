@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./_SideBar.scss";
 import Listings from "../../Components/Listings/Listings";
 import ListingsLarge from "../../Components/Listings/ListingsLarge";
 import Logo from '../../Assets/LogoBlack.png'
+import Tabs from "../Tabs/Tabs";
 
 
 
@@ -22,21 +23,13 @@ const SideBar = () => {
         { text: "being black, belonging black", time: "21:00" },
 
     ];
+    const [active, setActive] = useState(1)
+    console.log(active)
     return (
         <div className="side-bar-outer">
             <div className="side-bar-middle">
                 <div className="side-bar-inner">
-                    <ul className="tab-list">
-                        <li className="tab">
-                            <button className="tab-button">EP 1</button>
-                        </li>
-                        <li className="tab">
-                            <button className="tab-button">EP 2</button>
-                        </li>
-                        <li className="tab">
-                            <button className="tab-button">EP 3</button>
-                        </li>
-                    </ul>
+                    <Tabs active={active} setActive={setActive} />
                     <h2 className="sidebar-title">Daytime</h2>
                     <ul className="schedule">
                         {listings.map((listing, index) => {

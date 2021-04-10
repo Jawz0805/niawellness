@@ -1,6 +1,5 @@
 import React from "react";
 import "./_Grid.scss";
-import Logo from '../../Assets/LogoYellow.png'
 import GridCard from "../../Components/GridCard/GridCard";
 
 

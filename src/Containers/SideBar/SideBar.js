@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./_SideBar.scss";
 import Listings from "../../Components/Listings/Listings";
 import ListingsLarge from "../../Components/Listings/ListingsLarge";
-import Logo from '../../Assets/LogoBlack.png'
 import Tabs from "../Tabs/Tabs";
 
 

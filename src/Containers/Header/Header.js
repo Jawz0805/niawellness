@@ -1,6 +1,6 @@
 import React from "react";
 import './_Header.scss'
-import Logo from "../../Assets/LogoBlue.png";
+
 
 const Header = ({ page, setPage }) => {
 

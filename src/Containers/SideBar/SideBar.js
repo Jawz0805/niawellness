@@ -51,7 +51,7 @@ const SideBar = ({ episode, setEpisode }) => {
                             return <ListingsLarge listing={listing} key={index} />;
                         })}
                     </ul>
-                    <img src={Logo} alt="Nia Tv Logo" className="sidebar-logo" />
+                    <h1 className="sidebar-bottom">Niamos wellness</h1>
                 </div>
             </div>
         </div>

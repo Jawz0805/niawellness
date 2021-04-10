@@ -7,7 +7,7 @@ const Header = ({ page, setPage }) => {
     return (
         <div className="header-container">
             <div className="header-inner-container">
-                <img src={Logo} alt="Nia Tv Logo" className="header-logo" />
+                <h1 className="wellness-title">Niamos Wellness</h1>
                 <div className="header-buttons">
                     <div className={page === "watch" ? "button-border-active" : "button-border-inactive"}>
                         <button className={page === "watch" ? "button-active" : "button-inactive"} onClick={() => setPage("watch")}>Watch</button>

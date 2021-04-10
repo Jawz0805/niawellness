@@ -1,18 +1,18 @@
-@import url("https://use.typekit.net/lwa8rme.css");
+@import url("https://use.typekit.net/unp3wha.css");
 .black {
-  color: #0a0a0a;
+  color: #688a5a;
 }
 
 .white {
-  color: #ffffff;
+  color: #fefde9;
 }
 
 .bg-black {
-  background-color: #0a0a0a;
+  background-color: #688a5a;
 }
 
 .bg-white {
-  background-color: #ffffff;
+  background-color: #fefde9;
 }
 
 .container-padding {
@@ -24,19 +24,19 @@
 }
 
 .black {
-  color: #0a0a0a;
+  color: #688a5a;
 }
 
 .white {
-  color: #ffffff;
+  color: #fefde9;
 }
 
 .bg-black {
-  background-color: #0a0a0a;
+  background-color: #688a5a;
 }
 
 .bg-white {
-  background-color: #ffffff;
+  background-color: #fefde9;
 }
 
 h1,
@@ -47,12 +47,12 @@ h5,
 h6,
 li,
 button {
-  font-family: "sofachrome";
+  font-family: "continuo";
 }
 
 h1 {
   text-align: center;
-  border: 2px solid #dbfc54;
+  border: 2px solid #f1f8d6;
   border-radius: 40px;
   margin: 5px;
   padding: 10px;
@@ -64,7 +64,7 @@ span,
 label,
 textarea,
 div {
-  font-family: ethnocentric, sans-serif;
+  font-family: basic-sans;
   font-weight: 200;
   font-style: normal;
 }
@@ -80,7 +80,7 @@ div {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0 0 10px 0;
 }
 
@@ -95,11 +95,12 @@ h3 {
 p {
   margin: 0;
   padding: 5px 0;
+  font-size: 1.2em;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fefde9;
 }
 
 ul {
@@ -107,7 +108,7 @@ ul {
 }
 
 body {
-  background-color: #5700ff;
+  background-color: #c0e3a3;
   margin: 0;
 }
 

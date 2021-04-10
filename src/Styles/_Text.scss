@@ -1,6 +1,6 @@
 @import "./Colours";
 @import "./Breakpoints";
-@import url("https://use.typekit.net/lwa8rme.css");
+@import url("https://use.typekit.net/unp3wha.css");
 h1,
 h2,
 h3,
@@ -9,7 +9,7 @@ h5,
 h6,
 li,
 button {
-  font-family: "sofachrome";
+  font-family: "continuo";
 }
 h1 {
   text-align: center;
@@ -25,7 +25,7 @@ span,
 label,
 textarea,
 div {
-  font-family: ethnocentric, sans-serif;
+  font-family: basic-sans;
   font-weight: 200;
   font-style: normal;
 }
@@ -43,7 +43,7 @@ div {
   }
 }
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0 0 10px 0;
 }
 h2 {
@@ -55,6 +55,7 @@ h3 {
 p {
   margin: 0;
   padding: 5px 0;
+  font-size: 1.2em;
 }
 
 a {

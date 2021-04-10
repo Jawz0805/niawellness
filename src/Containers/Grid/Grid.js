@@ -17,7 +17,7 @@ const Grid = ({ cards }) => {
                     })}
                 </div>
                 <div className="grid-logo">
-                    <img src={Logo} alt="nia tv logo" />
+                    <h2 style={{ fontSize: "3em" }}>Niamos Wellness</h2>
                 </div>
             </div>
         </div>

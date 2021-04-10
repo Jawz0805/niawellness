@@ -12,7 +12,6 @@ const VideoPlayer = ({ video, title }) => {
           allowFullScreen="true"
           scrolling="no"
           className="player-iframe"
-
           width="100%"
           height="100%"
         ></iframe> : <div style={{ width: "100%", height: "100%", backgroundColor: "red" }}></div>}

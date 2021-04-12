@@ -1,6 +1,6 @@
 import React from "react";
 import "./_Grid.scss";
-import GridCard from "../../Components/GridCard/GridCard";
+// import GridCard from "../../Components/GridCard/GridCard";
 
 
 

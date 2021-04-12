@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./_SideBar.scss";
 import Listings from "../../Components/Listings/Listings";
-import ListingsLarge from "../../Components/Listings/ListingsLarge";
+// import ListingsLarge from "../../Components/Listings/ListingsLarge";
 import Tabs from "../Tabs/Tabs";
 
 
@@ -16,12 +16,12 @@ const SideBar = ({ episode, setEpisode }) => {
         { text: "Extracts from the Charmain Berry Show", time: "TBC" },
         { text: "Agata alacaniz Qi Gong", time: "TBC" },
     ];
-    const primetime = [
-        { text: "the make a scene clip show", time: "TBC" },
-        { text: "the meme gold show", time: "TBC" },
-        { text: "being black, belonging black", time: "TBC" },
+    // const primetime = [
+    //     { text: "the make a scene clip show", time: "TBC" },
+    //     { text: "the meme gold show", time: "TBC" },
+    //     { text: "being black, belonging black", time: "TBC" },
 
-    ];
+    // ];
     const [active, setActive] = useState(1)
     console.log(active)
     return (

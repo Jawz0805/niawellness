@@ -10,11 +10,11 @@ const Grid = ({ cards }) => {
         <div className="grid-container">
             <div className="grid-inner">
                 <h1>Episode 1</h1>
-                <div className="grid">
+                {/* <div className="grid">
                     {cards.map((card, index) => {
                         return <GridCard card={card} key={index} />;
                     })}
-                </div>
+                </div> */}
                 <div className="grid-logo">
                     <h2 style={{ fontSize: "3em" }}>Niamos Wellness</h2>
                 </div>

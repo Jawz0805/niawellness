@@ -7,30 +7,23 @@ const About = () => {
             <div className="grid-inner">
                 <h1>About</h1>
                 <div className="card-container">
-                    <h2 className="card-title">Nia TV</h2>
-                    <div className="card-time-container">
+                    <h2 className="card-title">The Livingroom</h2>
+                    {/* <div className="card-time-container">
                         <div className="card-time-block"></div>
                         <h4 className="card-time">time</h4>
-                    </div>
+                    </div> */}
                     <p className="card-text">
-                        NIA TV is a community streaming channel set-up by artists to create
-                        content, programme shows and keep us connected.
-          </p>
-                    <div className="card-time-container">
+
+                    </p>
+                    {/* <div className="card-time-container">
                         <div className="card-time-block"></div>
                         <h4 className="card-time">
                             - ‘real people, real experiences, in real times’
             </h4>
-                    </div>
+                    </div> */}
 
                     <p>
-                        We will be supporting a variety of cross platform content sharing on
-                        a D-I-Y network.
-          </p>
-
-                    <p>
-                        All our programmes air live on Twitch before being uploaded to
-                        YouTube to access after the live event.
+                        a series of health and wellbeing programs from local Manchester  practitioners coming directly into your living room, sharing their knowledge with you. The Living Room aims to encourage and teach you tools and techniques to help you learn how to improve your over all well-being.
           </p>
                 </div>
             </div>

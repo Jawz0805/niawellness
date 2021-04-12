@@ -7,7 +7,7 @@ const Header = ({ page, setPage }) => {
     return (
         <div className="header-container">
             <div className="header-inner-container">
-                <h1 className="wellness-title">Niamos Wellness</h1>
+                <h1 className="wellness-title">The Livingroom</h1>
                 <div className="header-buttons">
                     <div className={page === "watch" ? "button-border-active" : "button-border-inactive"}>
                         <button className={page === "watch" ? "button-active" : "button-inactive"} onClick={() => setPage("watch")}>Watch</button>

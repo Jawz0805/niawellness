@@ -8,18 +8,18 @@ import Tabs from "../Tabs/Tabs";
 
 const SideBar = ({ episode, setEpisode }) => {
     const listings = [
-        { text: "capturing stillness", time: "10:00" },
-        { text: "resonance", time: "10:30" },
-        { text: "totally cosmic", time: "11:00" },
-        { text: "trash jewelry", time: "11:45" },
-        { text: "da succulent show", time: "12:15" },
-        { text: "local foraging", time: "12:45" },
-        { text: "paco & romån", time: "13:15" },
+        { text: "Adam Merry Coach", time: "TBC" },
+        { text: "Kayya Hana Hudson Hatha Yoga", time: "TBC" },
+        { text: "Craig Winterburn Gong Bath", time: "TBC" },
+        { text: "Martin Lewis Tai Chi", time: "TBC" },
+        { text: "Theresa McDowell BreathWork", time: "TBC" },
+        { text: "Extracts from the Charmain Berry Show", time: "TBC" },
+        { text: "Agata alacaniz Qi Gong", time: "TBC" },
     ];
     const primetime = [
-        { text: "the make a scene clip show", time: "19:00" },
-        { text: "the meme gold show", time: "20:00" },
-        { text: "being black, belonging black", time: "21:00" },
+        { text: "the make a scene clip show", time: "TBC" },
+        { text: "the meme gold show", time: "TBC" },
+        { text: "being black, belonging black", time: "TBC" },
 
     ];
     const [active, setActive] = useState(1)
@@ -37,20 +37,20 @@ const SideBar = ({ episode, setEpisode }) => {
                         })}
 
                     </ul>
-                    <h2 className="sidebar-title">M15 mixtape</h2>
+                    {/* <h2 className="sidebar-title">M15 mixtape</h2>
                     <div className="mixtape-outer">
                         <div className="mixtape-inner">
                             <h3 className="mixtape">15:00 - 16:30</h3>
                         </div>
                     </div>
-                    <h2 className="sidebar-title">PrimeTime</h2>
-                    <ul className="schedule">
+                    <h2 className="sidebar-title">PrimeTime</h2> */}
+                    {/* <ul className="schedule">
                         {primetime.map((listing, index) => {
 
                             return <ListingsLarge listing={listing} key={index} />;
                         })}
-                    </ul>
-                    <h1 className="sidebar-bottom">Niamos wellness</h1>
+                    </ul> */}
+                    <h1 className="sidebar-bottom">The Livingroom</h1>
                 </div>
             </div>
         </div>

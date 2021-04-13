@@ -7,7 +7,10 @@
   border-bottom-right-radius: 40px;
   border-spacing: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  @include respond-to("large") {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .header-container {
@@ -96,4 +99,5 @@
 .wellness-title {
   color: $black;
   background-color: $yellow;
+  font-size: 1em;
 }

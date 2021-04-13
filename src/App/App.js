@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Header page={page} setPage={setPage} />
       <div className="video-container">
-        <VideoPlayer video="https://player.twitch.tv/?channel=niatvlive&parent=nia-wellness.netlify.app" title="Nia Tv" />
+        <VideoPlayer video="https://player.twitch.tv/?channel=niatvlive&parent=livingroomwellbeing.co.uk" title="Nia Tv" />
       </div>
       {page === "watch" ?
         <Grid cards={episode} /> : <About />}

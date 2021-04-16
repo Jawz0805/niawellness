@@ -8,13 +8,14 @@ import Tabs from "../Tabs/Tabs";
 
 const SideBar = ({ episode, setEpisode }) => {
     const listings = [
-        { text: "Adam Merry Coach", time: "TBC" },
-        { text: "Kayya Hana Hudson Hatha Yoga", time: "TBC" },
-        { text: "Craig Winterburn Gong Bath", time: "TBC" },
-        { text: "Martin Lewis Tai Chi", time: "TBC" },
-        { text: "Theresa McDowell BreathWork", time: "TBC" },
-        { text: "Extracts from the Charmain Berry Show", time: "TBC" },
-        { text: "Agata alacaniz Qi Gong", time: "TBC" },
+        { text: "Sally McFerran Mindfulness", time: "10:00" },
+        { text: "Sue Fox Qi Gong", time: "10.45" },
+        { text: "Martin Lewis Tai Chi", time: "12:00" },
+        { text: "Kayya Hanna Health yoga", time: "12.30" },
+        { text: "Teresa Mc Donagh Breath Work", time: "13:00" },
+        { text: "Neil Future Vibes", time: "14:00" },
+        { text: "Agata alacaniz Qi Gong", time: "14.40" },
+        { text: "Adam Merry Coach ", time: "13.10" },
     ];
     // const primetime = [
     //     { text: "the make a scene clip show", time: "TBC" },

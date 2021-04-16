@@ -9,14 +9,14 @@ const Grid = ({ cards }) => {
     return (
         <div className="grid-container">
             <div className="grid-inner">
-                <h1>Episode 1</h1>
+                <h1>Episode 1: Sunday 18th April</h1>
                 {/* <div className="grid">
                     {cards.map((card, index) => {
                         return <GridCard card={card} key={index} />;
                     })}
                 </div> */}
                 <div className="grid-logo">
-                    <h2 style={{ fontSize: "3em" }}>Niamos Wellness</h2>
+                    <h2 style={{ fontSize: "3em" }}>The Livingroom</h2>
                 </div>
             </div>
         </div>

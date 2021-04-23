@@ -9,7 +9,7 @@ const Grid = ({ cards }) => {
     return (
         <div className="grid-container">
             <div className="grid-inner">
-                <h1>Episode 1: Sunday 18th April</h1>
+                <h1>Episode 2: Sunday 25th April</h1>
                 {/* <div className="grid">
                     {cards.map((card, index) => {
                         return <GridCard card={card} key={index} />;

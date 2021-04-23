@@ -23,8 +23,7 @@ const About = () => {
                     </div> */}
 
                     <p>
-                        a series of health and wellbeing programs from local Manchester  practitioners coming directly into your living room, sharing their knowledge with you. The Living Room aims to encourage and teach you tools and techniques to help you learn how to improve your over all well-being.
-          </p>
+                        a series of health and wellbeing programs from local Manchester  practitioners coming directly into your living room, sharing their knowledge with you. The Living Room aims to encourage and teach you tools and techniques to help you learn how to improve your over all well-being.          </p>
                 </div>
             </div>
         </div>

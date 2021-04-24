@@ -12,9 +12,9 @@ const SideBar = ({ episode, setEpisode }) => {
         { text: "Sue Fox Qi Gong", time: "10:30" },
         { text: "Kayya Hanna Health yoga", time: "11:00" },
         { text: "Martin Lewis Tai Chi", time: "12:00" },
-        { text: "Teresa Mc Donagh Breath Work", time: "13:00" },
+        { text: "Teresa Mc Donagh Breath Work", time: "12:30" },
         // { text: "Neil Future Vibes", time: "14:00" },
-        { text: "Agata alacaniz Qi Gong", time: "14:00" },
+        { text: "Agata alacaniz Qi Gong", time: "13:00" },
         // { text: "Adam Merry Coach ", time: "13.10" },
     ];
     // const primetime = [
